@@ -1,0 +1,225 @@
+/* Body */
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.cardHighlight{
+  min-height: 100%;
+}
+
+
+body {
+  background-color: #C2DEDC !important;
+  overflow-y: auto;
+}
+
+
+
+.custom-navbar {
+  background-color: #116A7B;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+
+
+.custom-navbar .nav-link {
+  background-color: #116A7B !important;
+}
+
+.nav.custom-navbar,
+div#navbarScroll,
+div.container-fluid {
+  background-color: #116A7B;
+}
+
+a.navbar-brand {
+  background-color: #116A7B !important;
+  color: white !important;
+}
+
+form.d-flex.align-items-center {
+  background-color: #116A7B !important;
+}
+
+svg {
+  background-color: #116A7B !important;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: white !important;
+}
+
+.nav-link.active {
+  color: white !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none !important;
+}
+
+
+/*----------------------------------------------*/
+/* Banner */
+.banner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+.banner-wrapper h1 {
+  font-weight: bold;
+  font-size: 9vh;
+}
+
+.banner-paragraph {
+  font-size: 1.5rem;
+}
+
+/* Carousel */
+.carousel-image {
+  height: 400px; /* Adjust the height value as needed */
+}
+
+/* Banner in small devices */
+@media (max-width: 768px) {
+  .banner-content {
+    font-size: 20px;
+  }
+
+  .carousel-image {
+    height: 200px;
+  }
+
+  .banner-title {
+    font-size: 50px !important;
+  }
+
+  .banner-paragraph {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+/*----------------------------------------------*/
+
+/*Add Product button*/
+.add-product-button {
+  background-color: #116A7B !important;
+  color: white !important;
+  outline-color: none;
+}
+
+.add-product-button:hover {
+  background-color: #116A7BCC !important;
+  color: white !important;
+}
+
+
+
+
+
+.editButton {
+  background-color: #116A7B !important;
+  color: white !important;
+  outline-color: none;
+}
+
+.editButton:hover {
+  background-color: #116A7BCC !important;
+  color: white !important;
+}
+
+
+.product-table thead tr.tableHead th {
+  background-color: #116A7B !important;
+  color: white !important;
+}
+
+
+.centered-table td,
+.centered-table th {
+  vertical-align: middle;
+}
+
+
+
+
+.products-title {
+  
+  padding-top: 50px
+}
+
+.product-view-card{
+  padding-top: 50px
+}
+
+
+
+.add-cart{
+  background-color: #116A7B !important;
+}
+
+.details-button{
+  background-color: #116A7B !important;
+}
+
+
+.notFound{
+  padding-top: 50px
+}
+
+
+.header{
+  color: white !important;
+  background-color: #116A7B !important;
+
+}
+
+
+.price{
+  color: darkgreen !important;
+
+}
+
+
+
+.order-title{
+  padding-top: 50px
+}
+
+
+.orders-header{
+  background-color: #116A7B !important;
+  color: white !important;
+}
+
+
+.welcome-message{
+padding-top: 50px
+  
+}
